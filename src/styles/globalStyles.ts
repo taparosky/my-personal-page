@@ -5,14 +5,12 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: helvetica;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
+    color: white;
   }
 
-  h1 {
-    font-size: 1.6rem;
-  }
 
   body {
     background: var(--background);

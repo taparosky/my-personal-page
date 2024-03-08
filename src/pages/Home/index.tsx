@@ -1,50 +1,27 @@
 import { Container } from "./styles";
 import {Education} from "../../components/Education/index.tsx";
 import {Header} from "../../components/Header/index.tsx";
+import { Work } from "../../components/Work/index.tsx";
+import { Hobbies } from "../../components/Hobbies/index.tsx";
 
 function Home() {
     return(
         <Container> 
           <Header/>
         <main>
+          <img src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/sharing/fiap.png"></img>
         <Education/>
         <br/>
         <br/>
-          <section id="experience">
-            <h2>Experiência Profissional</h2>
-            <br/>
-            <ul>
-              <li>
-                <h3>Ad Tech Sales Engineer - Google (Janeiro 2023 - Presente)</h3>
-                <p>Trabalho ajudando editores de aplicativos mobile a aumentarem suas receitas através de anúncios, oferecendo consultoria de soluções técnicas.</p>
-              </li>
-              <br/>
-              <li>
-                <h3>Technical Solutions Consultant - Hyland (Fevereiro 2020 - Dezembro 2022)</h3>
-                <p>Prestou consultoria técnica para empresas em relação à automação de fluxos de trabalho e gerenciamento de documentos.</p>
-              </li>
-            </ul>
-          </section>
+        <img src="https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1207206237.jpg?w=680"></img>
+        <Work/>
           <br/>
-          <section id="hobbies">
-            <h2>Hobbies</h2>
-            <br/>
-            <ul>
-              <li>
-                <h3>Futebol</h3>
-                <p>Adoro assistir, jogar e comentar jogos de futebol. Sou torcedor do Coritiba</p>
-              </li>
-              <br/>
-              <li>
-                <h3>Viajar</h3>
-                <p>Gosto muito de conhecer novos lugares, culturas e gastronomias.</p>
-              </li>
-            </ul>
-          </section>
+        <img src="https://classic.exame.com/wp-content/uploads/2021/09/coritiba-.jpg?quality=70&strip=info&w=1024"></img>
+        <Hobbies/>
         </main>
   
         <footer>
-          <p>&copy; 2024 Your Name</p>
+          <p>&copy; 2024 Vinicius Taparosky</p>
         </footer>
       </Container>
     );

@@ -5,24 +5,40 @@ export const Container = styled.div`
   flex: 1;
   height: 100vh;
   flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  max-width: 1000px;
-  margin: 10px auto;
   gap: 10px;
-  color: #f0efe1;
+  font-family: helvetica;
 
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  img {
-    
+  img{
+    margin: auto;
+    display: block;
+    max-width: 600px;
+    border-radius: 10%;
   }
 
 `;
+
+export const Info = styled.div`
+
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+  margin-top: 50px;
+
+
+  h2{
+    font-size: 2.5rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  li{
+    font-size:1.5rem;
+  }
+
+
+`;
+
